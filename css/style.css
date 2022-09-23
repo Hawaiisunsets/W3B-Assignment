@@ -1,0 +1,12 @@
+html{
+    background-color: bisque;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#vegas{
+    height: 50vh;
+    width: 50vw;
+}
