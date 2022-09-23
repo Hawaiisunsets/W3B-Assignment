@@ -1,12 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 html{
     background-color: bisque;
+    font-size: 20px;
 }
 
 h1{
-    font-size: 50px;
+    color: orange;
+    font-size: 60px;
+}
+
+main > p{
+    font-size: 2rem;
 }
 
 #vegas{
-    height: 50vh;
-    width: 50vw;
+    height: 25vh;
+    /*I wanted to experiment with my box sizing with the margin and padding set at 0 and using my comment out*/
+    width: 100vw;
+    box-sizing: border-box;
+    /*No scrolling to the right.  wooooooo*/
 }
+
+footer > img{
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+footer > p{
+    font-size: 300%;
+}
+
+
+
