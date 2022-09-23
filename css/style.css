@@ -3,10 +3,9 @@
     padding: 0;
 }
 
-
 html{
     background-color: bisque;
-    font-size: 20px;
+    
 }
 
 h1{
@@ -15,7 +14,7 @@ h1{
 }
 
 main > p{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #vegas{
@@ -30,10 +29,15 @@ footer > img{
     height: 100px;
     margin-top: 10px;
     margin-left: 10px;
+    
 }
 
 footer > p{
-    font-size: 300%;
+    font-size: 200%;
+}
+
+#thanks{
+    font-size: 5em;
 }
 
 
