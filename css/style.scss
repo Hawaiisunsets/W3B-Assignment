@@ -1,0 +1,36 @@
+@use "general";
+
+h1{
+    color: orange;
+    font-size: 60px;
+}
+
+main > p{
+    font-size: 1.5rem;
+}
+
+#vegas{
+    height: 25vh;
+    /*I wanted to experiment with my box sizing with the margin and padding set at 0 and using my comment out*/
+    width: 100vw;
+    box-sizing: border-box;
+    /*No scrolling to the right.  wooooooo*/
+}
+
+footer > img{
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+footer > p{
+    font-size: 200%;
+}
+
+#thanks{
+    font-size: 5em;
+}
+
+
+
